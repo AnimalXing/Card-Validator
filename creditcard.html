@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Credit Card Number</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1 class="title">Luhn Algorithm Checker</h1>
+		<p class="subtitle">Enter a credit card number below and click the button to check if it's valid.</p>
+		<div class="input-container">
+			<input type="text" id="numberInput" class="input-field" placeholder="Enter credit card number...">
+			<button onclick="isValidCreditCard(document.getElementById('numberInput').value)" class="submit-button">Enter</button>
+		</div>
+		<p id="result" class="result-text"></p>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
