@@ -10,11 +10,11 @@ Usage
 
 Validation Algorithm
 
-The validation algorithm used in this application is the Luhn algorithm, also known as the "modulus 10" algorithm. The algorithm checks for errors in a credit card number by calculating a checksum digit, which is then compared to the last digit of the credit card number. If the checksum digit matches the last digit of the credit card number, the credit card number is considered valid.
+    The validation algorithm used in this application is the Luhn algorithm, also known as the "modulus 10" algorithm. The algorithm checks for errors in a credit card number by calculating a checksum digit, which is then compared to the last digit of the credit card number. If the checksum digit matches the last digit of the credit card number, the credit card number is considered valid.
 
 Supported Credit Card Types
 
-The application currently supports the following credit card types:
+    The application currently supports the following credit card types:
 
     Mastercard (prefix 51-55)
     Visa (prefix 4)
